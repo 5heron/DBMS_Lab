@@ -31,6 +31,10 @@ University: APJ Abdul Kalam Technological University
   
   - [8. Electricity Bill Calculation Using Cursor](PLSQL#8-electricity-bill-calculation-using-cursor)
 
+  - [9.Client Audit Trigger](PLSQL/TRIGGER.md#9client-audit-trigger)
+
+  - [10.Bank Trigger and Sequence](PLSQL/TRIGGER.md#10bank-trigger-and-sequence)
+
 ## Spread the word
 Liked the project? Just give it a star :star: and spread the word!
 

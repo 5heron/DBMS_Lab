@@ -59,7 +59,7 @@ Here's a more concise version with a rephrased question:
 
 ---
 
-# 10.Database Trigger and Sequence Example
+# 10.Bank Trigger and Sequence
 
 **Question:** How can you create a trigger to ensure that a customer cannot have more than three accounts?
 
