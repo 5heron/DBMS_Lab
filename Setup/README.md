@@ -1,4 +1,3 @@
-Here’s a further simplified version formatted for a GitHub README:
 
 ---
 
