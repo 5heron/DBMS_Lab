@@ -1,5 +1,4 @@
 # DBMS_Lab
-# SYSTEM-SOFTWARE-LAB
 
 [![download](https://img.shields.io/badge/Direct_Download-zip-blue.svg?logo=appveyor&longCache=true&style=for-the-badge)](https://github.com/5heron/DBMS_Lab/archive/refs/heads/main.zip)
 
@@ -15,12 +14,12 @@ University: APJ Abdul Kalam Technological University
 
 - **[EXPERIMENT 4: UNIVERSITY DATABASE](Experiment_4/README.md)**
 
-- **[PLSQL](plsql/README.md)**
-  - [1. Fibonacci Series]
+- **[PLSQL](PLSQL/README.md)**
+  - [1. Fibonacci Series](PLSQL#1-fibonacci-series)
   
-  - [2. Factorial of a Number]
+  - [2. Factorial of a Number](PLSQL#2-factorial-of-a-number)
   
-  - [3. String Palindrome Check]
+  - [3. String Palindrome Check](PLSQL#3-string-palindrome-check)
   
   - [4. Factorial Using Function](PLSQL#4-factorial-using-function)
   
