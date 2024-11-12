@@ -1,3 +1,5 @@
+
+```sql
 -- Creating DEPT table
 CREATE TABLE DEPT (
     DNO INT PRIMARY KEY,
@@ -28,6 +30,7 @@ CREATE TABLE EMP (
 -- Inserting a record into EMP
 INSERT INTO EMP VALUES
 ('E3', 'CATHY', 160000, 1, '', '09-SEP-2001', 'MANAGER', 'ADD3', 'KOCHI', 80082);
+```
 
 ### SQL Questions
 
