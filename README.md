@@ -5,10 +5,11 @@
 B.Tech CSE S5 DBMS Lab
 
 University: APJ Abdul Kalam Technological University
+## SETUP
+
+  - **[Follow these steps to setup oracle in docker.](Setup/README.md)**
 
 ## Content
-
-- **[SETUP](Setup/README.md)**
 
 - **[EXPERIMENT 3: EMPLOYEE DATABASE](Experiment_3/README.md)**
 
