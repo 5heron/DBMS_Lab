@@ -1,4 +1,3 @@
-
 ```sql
 -- Creating DEPT table
 CREATE TABLE DEPT (
@@ -90,26 +89,25 @@ INSERT INTO EMP VALUES
    ```
 
 10.  Which employee(s) have a salary greater than the minimum salary for their department and designation and also greater than 50,000?
-    ```sql
-    SELECT ENAME, SALARY, DNO, DESG
-    FROM EMP A
-    WHERE SALARY > (SELECT MIN(SALARY) FROM EMP B
-                    WHERE A.DNO = B.DNO AND A.DESG = B.DESG)
-    AND SALARY > 50000
-    ORDER BY DNO;
-    ```
+   ```sql
+   SELECT ENAME, SALARY, DNO, DESG
+   FROM EMP A
+   WHERE SALARY > (SELECT MIN(SALARY) FROM EMP B
+                   WHERE A.DNO = B.DNO AND A.DESG = B.DESG)
+   AND SALARY > 50000
+   ORDER BY DNO;
+   ```
 
 11.  Which employee(s) are designated as 'MANAGER' and which department do they belong to?
-    ```sql
-    SELECT ENAME, DNAME
-    FROM EMP, DEPT
-    WHERE EMP.DNO = DEPT.DNO
-    AND DESG = 'MANAGER';
-    ```
+   ```sql
+   SELECT ENAME, DNAME
+   FROM EMP, DEPT
+   WHERE EMP.DNO = DEPT.DNO
+   AND DESG = 'MANAGER';
+   ```
 
 12.  What are the `DOJ` dates of each employee in `DD/MM/YYYY` format?
-    ```sql
-    SELECT ENAME, TO_CHAR(DOJ, 'DD/MM/YYYY') AS DOJ
-    FROM EMP;
-    ```
-
+   ```sql
+   SELECT ENAME, TO_CHAR(DOJ, 'DD/MM/YYYY') AS DOJ
+   FROM EMP;
+   ```
