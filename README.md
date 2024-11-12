@@ -35,6 +35,9 @@ University: APJ Abdul Kalam Technological University
 
   - [10.Bank Trigger and Sequence](PLSQL/TRIGGER.md#10bank-trigger-and-sequence)
 
+- **[EXTRAS](Extras)**
+
+
 ## Spread the word
 Liked the project? Just give it a star :star: and spread the word!
 
